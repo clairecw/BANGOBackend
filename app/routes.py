@@ -5,7 +5,6 @@ from app.update_board import *
 from flask import jsonify, abort, request
 from app.make_board import *
 from app.check_win import *
-
 games = []
 
 @app.route('/')
