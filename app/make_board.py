@@ -15,10 +15,10 @@ def make_boardy(gameID):
     row = []
     for j in range(5):
       if(i == 4 and j == 4):
-        row.append({"name":"FREE SPACE", "shortname":"FREE", "diff":0, "id":numBoardItems, "marked":True})
+        row.append({"name":"FREE SPACE", "shortname":"FREE", "diff":0, "id":numBoardItems-1})
       else:
         ite = g.boarditems[IDsOneD[i*5+j]]
-        row.append({"name":ite.name, "shortname":ite.shortname, "diff":ite.diff, "id":IDsOneD[i*5 + j], "marked":True})
+        row.append({"name":ite.name, "shortname":ite.shortname, "diff":ite.diff, "id":IDsOneD[i*5 + j]})
     game["row"+str(i)] = row
 
   #swap free space to right space

@@ -22,12 +22,12 @@ def check_bango(gameID, board):
     for j in range(5):
       clientBoard[i][j] = board[i][j]["marked"]
       serverBoard[i][j] = items[board[i][j]["id"]].marked
-      print str(i)+" "+str(j)+" "+str(board[i][j]["id"])+" "+str(items[board[i][j]["id"]])
+      #print str(i)+" "+str(j)+" "+str(board[i][j]["id"])+" "+str(items[board[i][j]["id"]])
 
       
       trueBoard[i][j] = serverBoard[i][j] and clientBoard[i][j]
       trueBoard[2][2] = True
-  print serverBoard
+  #print serverBoard
   return check_win(trueBoard)
 
 
@@ -36,7 +36,7 @@ def check_win(trueBoard):
   stuff = [[True, True, True, True, True], 
            [True, True, True, True, True],
            [True, True]]
-  print trueBoard
+  #print trueBoard
   for i in range(5):
     for j in range(5):
       if(i==j):
@@ -45,5 +45,5 @@ def check_win(trueBoard):
         stuff[2][1] = stuff[2][1] and trueBoard[i][j]
       stuff[0][i] = stuff[0][i] and trueBoard[i][j]
       stuff[1][j] = stuff[1][j] and trueBoard[i][j]
-  print stuff
+  #print stuff
   return True in stuff[0] or True in stuff[1] or True in stuff[2]
