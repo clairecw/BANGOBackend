@@ -46,4 +46,4 @@ def check_win(trueBoard):
       stuff[0][i] = stuff[0][i] and trueBoard[i][j]
       stuff[1][j] = stuff[1][j] and trueBoard[i][j]
   #print stuff
-  return True in stuff[0] or True in stuff[1] or True in stuff[2]
+  return True in stuff[0] or True in stuff[1] or True in stuff[2] 
