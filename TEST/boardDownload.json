@@ -1,49 +1,16 @@
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 3477
+Server: Werkzeug/0.14.1 Python/2.7.12
+Date: Sat, 10 Feb 2018 16:58:17 GMT
+
 {
-  "gameID":1,
-  "board":[
-  [
+  "row0": [
     {
       "diff": 0, 
-      "id": 8, 
+      "id": 24, 
       "marked": true, 
-      "name": "Random viral moment from half-time show", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 12, 
-      "marked": true, 
-      "name": "Spotted a celebrity in the crowd", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 16, 
-      "marked": true, 
-      "name": "Dorito Commercial", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 26, 
-      "marked": true, 
-      "name": "Reference to a Manning brother", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 6, 
-      "marked": true, 
-      "name": "Eagles win", 
-      "shortname": ""
-    }
-  ], 
-  [
-    {
-      "diff": 0, 
-      "id": 5, 
-      "marked": true, 
-      "name": "Patriots win!", 
+      "name": "Fan in face paint", 
       "shortname": ""
     }, 
     {
@@ -55,9 +22,9 @@
     }, 
     {
       "diff": 0, 
-      "id": 24, 
+      "id": 17, 
       "marked": true, 
-      "name": "Fan in face paint", 
+      "name": "Quarterback scores touchdown", 
       "shortname": ""
     }, 
     {
@@ -69,13 +36,34 @@
     }, 
     {
       "diff": 0, 
+      "id": 8, 
+      "marked": true, 
+      "name": "Random viral moment from half-time show", 
+      "shortname": ""
+    }
+  ], 
+  "row1": [
+    {
+      "diff": 0, 
       "id": 2, 
       "marked": true, 
       "name": "Blank screen", 
       "shortname": ""
-    }
-  ], 
-  [
+    }, 
+    {
+      "diff": 0, 
+      "id": 13, 
+      "marked": true, 
+      "name": "Advertisement for after Super Bowl TV", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 9, 
+      "marked": true, 
+      "name": "Celebrity on Eagles side", 
+      "shortname": ""
+    }, 
     {
       "diff": 0, 
       "id": 4, 
@@ -85,17 +73,63 @@
     }, 
     {
       "diff": 0, 
-      "id": 22, 
+      "id": 10, 
       "marked": true, 
-      "name": "Papa John's Pizza Ad", 
+      "name": "Celebrity on Patriots side", 
+      "shortname": ""
+    }
+  ], 
+  "row2": [
+    {
+      "diff": 0, 
+      "id": 20, 
+      "marked": true, 
+      "name": "Athlete cries", 
       "shortname": ""
     }, 
     {
       "diff": 0, 
-      "id": 27, 
+      "id": 1, 
+      "marked": true, 
+      "name": "Star Wars commercial", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 28, 
       "marked": true, 
       "name": "FREE SPACE", 
       "shortname": "FREE"
+    }, 
+    {
+      "diff": 0, 
+      "id": 7, 
+      "marked": true, 
+      "name": "Team leads with more than 10 points", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 15, 
+      "marked": true, 
+      "name": "Controversial Half-Time show move", 
+      "shortname": ""
+    }
+  ], 
+  "row3": [
+    {
+      "diff": 0, 
+      "id": 6, 
+      "marked": true, 
+      "name": "Eagles win", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 12, 
+      "marked": true, 
+      "name": "Spotted a celebrity in the crowd", 
+      "shortname": ""
     }, 
     {
       "diff": 0, 
@@ -110,28 +144,42 @@
       "marked": true, 
       "name": "Offside Penalty", 
       "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 3, 
+      "marked": true, 
+      "name": "Patriots miss the conversion", 
+      "shortname": ""
     }
   ], 
-  [
+  "row4": [
     {
       "diff": 0, 
-      "id": 17, 
+      "id": 14, 
       "marked": true, 
-      "name": "Quarterback scores touchdown", 
+      "name": "Random beer advertisement", 
       "shortname": ""
     }, 
     {
       "diff": 0, 
-      "id": 10, 
+      "id": 16, 
       "marked": true, 
-      "name": "Celebrity on Patriots side", 
+      "name": "Dorito Commercial", 
       "shortname": ""
     }, 
     {
       "diff": 0, 
-      "id": 13, 
+      "id": 5, 
       "marked": true, 
-      "name": "Advertisement for after Super Bowl TV", 
+      "name": "Patriots win!", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 22, 
+      "marked": true, 
+      "name": "Papa John's Pizza Ad", 
       "shortname": ""
     }, 
     {
@@ -140,51 +188,6 @@
       "marked": true, 
       "name": "Coach hides behind clipboard", 
       "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 7, 
-      "marked": true, 
-      "name": "Team leads with more than 10 points", 
-      "shortname": ""
-    }
-  ], 
-  [
-    {
-      "diff": 0, 
-      "id": 3, 
-      "marked": true, 
-      "name": "Patriots miss the conversion", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 15, 
-      "marked": true, 
-      "name": "Controversial Half-Time show move", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 1, 
-      "marked": true, 
-      "name": "Star Wars commercial", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 19, 
-      "marked": true, 
-      "name": "Cheerleaders", 
-      "shortname": ""
-    }, 
-    {
-      "diff": 0, 
-      "id": 20, 
-      "marked": true, 
-      "name": "Athlete cries", 
-      "shortname": ""
     }
   ]
-]
 }

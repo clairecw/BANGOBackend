@@ -49,7 +49,9 @@ def update_item():
 
 @app.route('/bango', methods=['POST', 'GET'])
 def bango():
+  print "hel"
   data = request.get_json()
+  print "hel"
   return jsonify(check_bango(data["gameID"], data["board"]))
 
 
