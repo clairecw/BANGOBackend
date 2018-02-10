@@ -1,8 +1,8 @@
-"""board table
+"""empty message
 
-Revision ID: b3f5b02ad1da
+Revision ID: 8585b1bb4899
 Revises: 
-Create Date: 2018-02-09 20:48:02.876364
+Create Date: 2018-02-10 01:24:51.015271
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'b3f5b02ad1da'
+revision = '8585b1bb4899'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -23,18 +23,19 @@ def upgrade():
     sa.Column('name', sa.Text(), nullable=False),
     sa.PrimaryKeyConstraint('id')
     )
-    op.create_index(op.f('ix_game_name'), 'game', ['name'], unique=True)
+    op.create_index(op.f('ix_game_name'), 'game', ['name'], unique=False)
     op.create_table('board_item',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('name', sa.Text(), nullable=False),
     sa.Column('shortname', sa.String(length=80), nullable=False),
     sa.Column('marked', sa.Boolean(), nullable=True),
-    sa.Column('game_id', sa.Integer(), nullable=False),
+    sa.Column('diff', sa.Integer(), nullable=True),
+    sa.Column('game_id', sa.Integer(), nullable=True),
     sa.ForeignKeyConstraint(['game_id'], ['game.id'], ),
     sa.PrimaryKeyConstraint('id')
     )
-    op.create_index(op.f('ix_board_item_name'), 'board_item', ['name'], unique=True)
-    op.create_index(op.f('ix_board_item_shortname'), 'board_item', ['shortname'], unique=True)
+    op.create_index(op.f('ix_board_item_name'), 'board_item', ['name'], unique=False)
+    op.create_index(op.f('ix_board_item_shortname'), 'board_item', ['shortname'], unique=False)
     # ### end Alembic commands ###
 
 

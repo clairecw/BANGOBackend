@@ -1,0 +1,162 @@
+{
+  "row0": [
+    {
+      "diff": 0, 
+      "id": 19, 
+      "name": "Fan with painted face", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 2, 
+      "name": "Star Wars commercial", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 13, 
+      "name": "Spotted a celebrity in the crowd", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 26, 
+      "name": "Offside Penalty", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 3, 
+      "name": "Blank screen", 
+      "shortname": ""
+    }
+  ], 
+  "row1": [
+    {
+      "diff": 0, 
+      "id": 22, 
+      "name": "Coach hides behind clipboard", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 24, 
+      "name": "Coca Cola commercial", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 17, 
+      "name": "Dorito Commercial", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 11, 
+      "name": "Celebrity on Patriots side", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 25, 
+      "name": "Fan in face paint", 
+      "shortname": ""
+    }
+  ], 
+  "row2": [
+    {
+      "diff": 0, 
+      "id": 27, 
+      "name": "Reference to a Manning brother", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 5, 
+      "name": "Wardrobe malfunction during Half-Time show", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 28, 
+      "name": "FREE SPACE", 
+      "shortname": "FREE"
+    }, 
+    {
+      "diff": 0, 
+      "id": 9, 
+      "name": "Random viral moment from half-time show", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 1, 
+      "name": "Patriots fumble", 
+      "shortname": ""
+    }
+  ], 
+  "row3": [
+    {
+      "diff": 0, 
+      "id": 16, 
+      "name": "Controversial Half-Time show move", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 10, 
+      "name": "Celebrity on Eagles side", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 23, 
+      "name": "Papa John's Pizza Ad", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 15, 
+      "name": "Random beer advertisement", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 7, 
+      "name": "Eagles win", 
+      "shortname": ""
+    }
+  ], 
+  "row4": [
+    {
+      "diff": 0, 
+      "id": 18, 
+      "name": "Quarterback scores touchdown", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 14, 
+      "name": "Advertisement for after Super Bowl TV", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 12, 
+      "name": "Mention of Trump", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 21, 
+      "name": "Athlete cries", 
+      "shortname": ""
+    }, 
+    {
+      "diff": 0, 
+      "id": 8, 
+      "name": "Team leads with more than 10 points", 
+      "shortname": ""
+    }
+  ]
+}
